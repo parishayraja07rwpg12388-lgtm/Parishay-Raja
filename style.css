@@ -1,0 +1,15 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family:Arial; }
+body { background:#f0fdf4; color:#14532d; }
+.hero {
+  height:55vh;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1200');
+  background-size:cover; background-position:center;
+  display:flex; flex-direction:column; justify-content:center; align-items:center;
+  color:white; text-align:center; padding:20px;
+}
+.hero h1 { font-size:38px; }
+.container { max-width:800px; margin:auto; padding:20px; }
+.card { background:white; border-radius:15px; padding:20px; margin:15px 0; box-shadow:0 3px 12px rgba(0,0,0,.08); }
+.grid { display:grid; grid-template-columns:1fr 1fr; gap:15px; }
+.footer { background:#14532d; color:white; text-align:center; padding:20px; margin-top:20px; }
+@media(max-width:600px){ .grid{grid-template-columns:1fr} }
